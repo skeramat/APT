@@ -86,8 +86,8 @@ def camera_center():
   
     
 
-label = "Keramat/Add reference altitude"
-label2 = "Keramat/Add reference XY"
+label = "APT/Add reference altitude"
+label2 = "APT/Add reference XY"
 
 Metashape.app.addMenuItem(label, add_altitude)
 Metashape.app.addMenuItem(label2, camera_center)
